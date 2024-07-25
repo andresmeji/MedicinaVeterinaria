@@ -1,0 +1,71 @@
+{
+    "resourceType": "RelatedPerson",
+    "id": "521a75f2-2781-417a-989e-abd462cc6624",
+    "identifier": [
+        {
+            "use": "official",
+            "type": {
+                "coding": [
+                    {
+                        "system": "<http://terminology.hl7.org/CodeSystem/v2-0203",
+                        "code": "PN",
+                        "display": "Person number"
+                    }
+                ]
+            },
+            "value": "28374987"
+        }
+    ],
+    "active": true,
+    "patient": {
+        "reference": "Patient/64765015-97b9-4391-bab2-c6b821527adc"
+    },
+    "relationship": [
+        {
+            "coding": [
+                {
+                    "system": "<http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "O",
+                    "display": "Other"
+                },
+                {
+                    "system": "<http://snomed.info/sct",
+                    "code": "224150009",
+                    "display": "Pet ownership (observable entity)"
+                }
+            ]
+        }
+    ],
+    "name": [
+        {
+            "family": "Reyes López",
+            "given": ["María", "Cristina"]
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+57(601)111-1111",
+            "use": "home"
+        },
+        {
+            "system": "phone",
+            "value": "+57(300)222-2222",
+            "use": "home"
+        },
+        {
+            "system": "email",
+            "value": "propietario@example.com"
+        }
+    ],
+    "address": [
+        {
+            "use": "home",
+            "text": "Cll 140 # 7B-75",
+            "city": "Bogotá D.C",
+            "state": "Bogotá D.C.",
+            "postalCode": "110121",
+            "country": "CO"
+        }
+    ]
+}

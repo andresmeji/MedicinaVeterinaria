@@ -1,0 +1,19 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "AnimalSpeciesValueSet",
+  "id": "animalSpecies",
+  "title": "Species Value Set",
+  "description": "Animal species codes",
+  "url": "http://example.org/fhir/ValueSet/species",
+  "version": "1.0.1",
+  "experimental": true,
+  "purpose": "This FHIR resource type CodeSystem has been created to store animal species.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://www.species.com"
+      }
+    ]
+  }
+}

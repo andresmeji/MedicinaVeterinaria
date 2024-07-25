@@ -1,0 +1,113 @@
+{
+    "resourceType": "Composition",
+    "id": "b23c8355-c570-4948-a025-3cef2c6ed2f7",
+    "identifier": {
+        "system": "<http://myvet.example.com/document-identifier",
+        "value": "4dad935c-a7bd"
+    },
+    "status": "final",
+    "type": {
+        "coding": [
+            {
+                "system": "<http://loinc.org",
+                "code": "18842-5",
+                "display": "Discharge summary"
+            }
+        ]
+    },
+    "category": [
+        {
+            "coding": [
+                {
+                    "system": "<http://loinc.org",
+                    "code": "11503-0",
+                    "display": "Medical records"
+                }
+            ]
+        }
+    ],
+    "subject": {
+        "reference": "Patient/64765015-97b9-4391-bab2-c6b821527adc"
+    },
+    "date": "2023-03-28T09:23:45-05:00",
+    "author": [
+        {
+            "reference": "Practitioner/e8bc83dc-e0ff-41df-94f1-c00e4799cf52"
+        }
+    ],
+    "attester": [
+        {
+            "mode": "professional",
+            "party": {
+                "reference": "Practitioner/e8bc83dc-e0ff-41df-94f1-c00e4799cf52"
+            }
+        }
+    ],
+    "custodian": {
+        "reference": "Organization/9bab292b-736c-4ce8-86b4-a004264fc7d9"
+    },
+    "title": "HISTORIA CLÍNICA VETERINARIA",
+    "section": [
+        {
+            "title": "Datos del propietario",
+            "entry": [
+                {
+                    "reference": "RelatedPerson/521a75f2-2781-417a-989e-abd462cc6624"
+                }
+            ]
+        },
+        {
+            "title": "Reseña",
+            "entry": [
+                {
+                    "reference": "Observation/[id de la instancia de recurso PetWeight"
+                },
+                {
+                    "reference": "Observation/[id de la instancia de recurso PetTypeCoat"
+                },
+                {
+                    "reference": "Observation/[id de la instancia de recurso PetParticularSigns"
+                },
+                {
+                    "reference": "Observation/[id de la instancia de recurso PetZootechnicalPurpose"
+                },
+                {
+                    "reference": "Observation/[id de la instancia de recurso PetOrigin"
+                }
+            ]
+        },
+        {
+            "title": "Anamnesis"
+        },
+        {
+            "title": "Examen físico general"
+        },
+        {
+            "title": "Abordaje diagnóstico"
+        },
+        {
+            "title": "Exámenes complementarios y resultados"
+        },
+        {
+            "title": "Diagnóstico presuntivo y justificado"
+        },
+        {
+            "title": "Diagnóstico definitivo"
+        },
+        {
+            "title": "Plan terapéutico"
+        },
+        {
+            "title": "Pronóstico"
+        },
+        {
+            "title": "Evolución"
+        },
+        {
+            "title": "Observaciones"
+        },
+        {
+            "title": "Anexos"
+        }
+    ]
+}

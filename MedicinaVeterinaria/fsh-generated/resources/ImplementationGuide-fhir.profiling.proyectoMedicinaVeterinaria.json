@@ -1,0 +1,222 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "fhir.profiling.proyectoMedicinaVeterinaria",
+  "url": "https://proyectomedicinaveterinaria.org/fhir/ImplementationGuide/fhir.profiling.proyectoMedicinaVeterinaria",
+  "version": "0.1",
+  "name": "ExampleProfilingIG",
+  "title": "HL7 FHIR Implementation Guide: FHIR profiling project veterinary medicine | Team C",
+  "status": "draft",
+  "date": "2024-07-18",
+  "publisher": "HL7 Colombia - Official Affiliate of Health Level Seven International",
+  "contact": [
+    {
+      "name": "HL7 Colombia - Official Affiliate of Health Level Seven International",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7co.org"
+        },
+        {
+          "system": "email",
+          "value": "nombre@example.com"
+        }
+      ]
+    },
+    {
+      "name": "Carmen Elisa Grajales Vasquez",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "cegrajales@sura.com.co",
+          "use": "work"
+        }
+      ]
+    },
+    {
+      "name": "Fredy Andres Arroyave Anaya",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "farroyave@sura.com.co",
+          "use": "work"
+        }
+      ]
+    },
+    {
+      "name": "Andrés Mejía",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "afmejiag@sura.com.co",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "Implementation guide for a veterinary medicine clinic using SUSHI and FSH tools for the design and publication of FHIR HL7 profiles and implementation guides.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "display": "Colombia"
+        }
+      ]
+    }
+  ],
+  "packageId": "fhir.profiling.proyectoMedicinaVeterinaria",
+  "license": "CC0-1.0",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/patient-animal"
+        },
+        "name": "animal",
+        "description": "This patient is known to be an animal.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/animalStatus"
+        },
+        "name": "Animal Status Code System",
+        "description": "Animal status codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/animalBreedValueSet"
+        },
+        "name": "Breed Value Set",
+        "description": "Animal breed codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/age"
+        },
+        "name": "Edad del Animal",
+        "description": "La edad del animal.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/species"
+        },
+        "name": "Especie del Animal",
+        "description": "La especie del animal.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/gender-status"
+        },
+        "name": "Estado del Género del Animal",
+        "description": "El estado del género del animal.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/MyComposition"
+        },
+        "name": "MyComposition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/MyMascota"
+        },
+        "name": "MyMascota",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/MyOrganization"
+        },
+        "name": "MyOrganization",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/MyPractitioner3"
+        },
+        "name": "MyPractitioner3",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/patient-contactrelationship"
+        },
+        "name": "Patient Contact Relationship ",
+        "description": "The nature of the relationship between the patient and the contact person.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/PetOwnerRelatedPerson"
+        },
+        "name": "PetOwnerRelatedPerson",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/breed"
+        },
+        "name": "Raza del Animal",
+        "description": "La raza del animal.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/animalSpecies"
+        },
+        "name": "Species Code System",
+        "description": "Animal species codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/animalSpecies"
+        },
+        "name": "Species Value Set",
+        "description": "Animal species codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/animalgenderStatusValueSet"
+        },
+        "name": "Status Value Set",
+        "description": "Animal status codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/v2-0131"
+        },
+        "name": "v2 Contact Role",
+        "description": "FHIR Value set/code system definition for HL7 v2 table 0131 ( Contact Role)",
+        "exampleBoolean": false
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": []
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2024+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "STU1"
+      }
+    ]
+  }
+}

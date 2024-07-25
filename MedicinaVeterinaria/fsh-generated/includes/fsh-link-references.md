@@ -1,0 +1,17 @@
+[animal]: StructureDefinition-patient-animal.html
+[AnimalStatus]: CodeSystem-animalStatus.html
+[AnimalBreedValueSet]: ValueSet-animalBreedValueSet.html
+[Age]: StructureDefinition-age.html
+[Species]: StructureDefinition-species.html
+[GenderStatus]: StructureDefinition-gender-status.html
+[MyComposition]: StructureDefinition-MyComposition.html
+[MyMascota]: StructureDefinition-MyMascota.html
+[MyOrganization]: StructureDefinition-MyOrganization.html
+[MyPractitioner3]: StructureDefinition-MyPractitioner3.html
+[PatientContactRelationship]: ValueSet-patient-contactrelationship.html
+[PetOwnerRelatedPerson]: StructureDefinition-PetOwnerRelatedPerson.html
+[Breed]: StructureDefinition-breed.html
+[AnimalSpecies]: CodeSystem-animalSpecies.html
+[AnimalSpeciesValueSet]: ValueSet-animalSpecies.html
+[AnimalgenderStatusValueSet]: ValueSet-animalgenderStatusValueSet.html
+[v2.0131]: CodeSystem-v2-0131.html

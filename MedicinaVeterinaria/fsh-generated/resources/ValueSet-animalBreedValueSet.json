@@ -1,0 +1,19 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "AnimalBreedValueSet",
+  "id": "animalBreedValueSet",
+  "title": "Breed Value Set",
+  "description": "Animal breed codes",
+  "url": "http://example.org/fhir/ValueSet/breed",
+  "version": "1.0.1",
+  "experimental": true,
+  "purpose": "This FHIR resource type CodeSystem has been created to store animal breed.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://www.species.com"
+      }
+    ]
+  }
+}

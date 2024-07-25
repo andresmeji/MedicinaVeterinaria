@@ -1,0 +1,138 @@
+[
+  {
+    "outputFile": "CodeSystem-animalSpecies.json",
+    "fshName": "AnimalSpecies",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems\\AnimalSpecies.fsh",
+    "startLine": 1,
+    "endLine": 53
+  },
+  {
+    "outputFile": "CodeSystem-animalStatus.json",
+    "fshName": "AnimalStatus",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems\\AnimalStatus.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "CodeSystem-v2-0131.json",
+    "fshName": "v2.0131",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems\\v2-0131.fsh",
+    "startLine": 3,
+    "endLine": 159
+  },
+  {
+    "outputFile": "StructureDefinition-MyComposition.json",
+    "fshName": "MyComposition",
+    "fshType": "Profile",
+    "fshFile": "profiles\\Composition2.fsh",
+    "startLine": 1,
+    "endLine": 81
+  },
+  {
+    "outputFile": "StructureDefinition-MyMascota.json",
+    "fshName": "MyMascota",
+    "fshType": "Profile",
+    "fshFile": "profiles\\MyMascota.fsh",
+    "startLine": 1,
+    "endLine": 40
+  },
+  {
+    "outputFile": "StructureDefinition-MyOrganization.json",
+    "fshName": "MyOrganization",
+    "fshType": "Profile",
+    "fshFile": "profiles\\MyOrganization.fsh",
+    "startLine": 1,
+    "endLine": 28
+  },
+  {
+    "outputFile": "StructureDefinition-MyPractitioner3.json",
+    "fshName": "MyPractitioner3",
+    "fshType": "Profile",
+    "fshFile": "profiles\\Practitioner.fsh",
+    "startLine": 1,
+    "endLine": 41
+  },
+  {
+    "outputFile": "StructureDefinition-PetOwnerRelatedPerson.json",
+    "fshName": "PetOwnerRelatedPerson",
+    "fshType": "Profile",
+    "fshFile": "profiles\\PetOwnerRelatedPerson.fsh",
+    "startLine": 1,
+    "endLine": 25
+  },
+  {
+    "outputFile": "StructureDefinition-age.json",
+    "fshName": "Age",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtencionAnimal.fsh",
+    "startLine": 89,
+    "endLine": 96
+  },
+  {
+    "outputFile": "StructureDefinition-breed.json",
+    "fshName": "Breed",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtencionAnimal.fsh",
+    "startLine": 69,
+    "endLine": 77
+  },
+  {
+    "outputFile": "StructureDefinition-gender-status.json",
+    "fshName": "GenderStatus",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtencionAnimal.fsh",
+    "startLine": 79,
+    "endLine": 87
+  },
+  {
+    "outputFile": "StructureDefinition-patient-animal.json",
+    "fshName": "animal",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtencionAnimal.fsh",
+    "startLine": 4,
+    "endLine": 57
+  },
+  {
+    "outputFile": "StructureDefinition-species.json",
+    "fshName": "Species",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtencionAnimal.fsh",
+    "startLine": 59,
+    "endLine": 67
+  },
+  {
+    "outputFile": "ValueSet-animalBreedValueSet.json",
+    "fshName": "AnimalBreedValueSet",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\AnimalBreedValueSet.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "ValueSet-animalSpecies.json",
+    "fshName": "AnimalSpeciesValueSet",
+    "fshType": "ValueSet",
+    "fshFile": "extensions\\ExtencionAnimal.fsh",
+    "startLine": 98,
+    "endLine": 107
+  },
+  {
+    "outputFile": "ValueSet-animalgenderStatusValueSet.json",
+    "fshName": "AnimalgenderStatusValueSet",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\AnimalgenderStatusValueSet.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "ValueSet-patient-contactrelationship.json",
+    "fshName": "PatientContactRelationship",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\PatientContactRelationship.fsh",
+    "startLine": 1,
+    "endLine": 24
+  }
+]

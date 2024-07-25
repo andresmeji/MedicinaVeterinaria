@@ -1,0 +1,110 @@
+{
+	"resourceType": "Practitioner",
+	"id": "e8bc83dc-e0ff-41df-94f1-c00e4799cf52",
+	"identifier": [
+		{
+			"use": "official",
+			"type": {
+                "coding": [
+                    {
+                        "system": "<http://terminology.hl7.org/CodeSystem/v2-0203",
+                        "code": "PN",
+                        "display": "Person number"
+                    }
+                ]
+            },
+			"value": "923468712364"
+		}
+	],
+	"active": true,
+	"name": [
+		{
+			"use": "official",
+            "family": "Espinoza Silva",
+			"given": [
+				"Diego",
+				"Alberto"
+			]
+		}
+	],
+	"telecom": [
+		{
+			"system": "phone",
+			"value": "+57(600)919-2200",
+			"use": "work"
+		},
+		{
+			"system": "phone",
+			"value": "+57(300)191-0022",
+			"use": "mobile"
+		},
+		{
+			"system": "email",
+			"value": "diego.espinoza@example.com"
+		}
+	],
+	"gender": "male",
+	"birthDate": "1974-03-11",
+	"qualification": [
+		{
+			"identifier": [
+				{
+					"use": "official",
+					"type": {
+						"coding": [
+							{
+								"system": "<http://terminology.hl7.org/CodeSystem/v2-0203",
+								"code": "LN",
+								"display": "License number"
+							}
+						]
+					},
+					"value": "TP-7649328645"
+				}
+			],
+			"code": {
+				"coding": [
+					{
+						"system": "<http://snomed.info/sct",
+						"code": "106290006",
+						"display": "Veterinarian (occupation)"
+					}
+				],
+                "text": "Veterinario"
+			},
+			"period": {
+				"start": "2000-09-12"
+			}
+		},
+		{
+			"identifier": [
+				{
+					"use": "official",
+					"type": {
+						"coding": [
+							{
+								"system": "<http://terminology.hl7.org/CodeSystem/v2-0203",
+								"code": "LN",
+								"display": "License number"
+							}
+						]
+					},
+					"value": "TP-7649328645"
+				}
+			],
+			"code": {
+				"coding": [
+					{
+						"system": "<http://snomed.info/sct",
+						"code": "2612001",
+						"display": "Veterinary pathologist (occupation)"
+					}
+				],
+                "text": "Anatomopatólogo veterinario"
+			},
+			"period": {
+				"start": "2005-02-14"
+			}
+		}
+	]
+}

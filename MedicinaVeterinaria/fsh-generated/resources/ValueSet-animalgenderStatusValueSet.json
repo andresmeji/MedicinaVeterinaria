@@ -1,0 +1,19 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "AnimalgenderStatusValueSet",
+  "id": "animalgenderStatusValueSet",
+  "title": "Status Value Set",
+  "description": "Animal status codes",
+  "url": "http://example.org/fhir/ValueSet/status",
+  "version": "1.0.1",
+  "experimental": true,
+  "purpose": "This FHIR resource type CodeSystem has been created to store animal status.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://www.AnimalStatus.com"
+      }
+    ]
+  }
+}

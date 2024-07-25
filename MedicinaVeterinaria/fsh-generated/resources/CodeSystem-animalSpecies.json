@@ -1,0 +1,174 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "AnimalSpecies",
+  "id": "animalSpecies",
+  "title": "Species Code System",
+  "description": "Animal species codes",
+  "url": "https://www.species.com",
+  "concept": [
+    {
+      "code": "dog",
+      "display": "Perro",
+      "concept": [
+        {
+          "code": "labrador",
+          "display": "Labrador Retriever"
+        },
+        {
+          "code": "germanshepherd",
+          "display": "Pastor Alemán"
+        },
+        {
+          "code": "bulldog",
+          "display": "Bulldog"
+        },
+        {
+          "code": "poodle",
+          "display": "Caniche"
+        },
+        {
+          "code": "chihuahua",
+          "display": "Chihuahua"
+        }
+      ]
+    },
+    {
+      "code": "cat",
+      "display": "Gato",
+      "concept": [
+        {
+          "code": "persian",
+          "display": "Persa"
+        },
+        {
+          "code": "mainecoon",
+          "display": "Maine Coon"
+        },
+        {
+          "code": "siamese",
+          "display": "Siamés"
+        },
+        {
+          "code": "ragdoll",
+          "display": "Ragdoll"
+        },
+        {
+          "code": "sphynx",
+          "display": "Esfinje"
+        }
+      ]
+    },
+    {
+      "code": "fish",
+      "display": "Peces domésticos",
+      "concept": [
+        {
+          "code": "dorada",
+          "display": "Carpa Dorada"
+        },
+        {
+          "code": "betta",
+          "display": "Pez Betta"
+        },
+        {
+          "code": "guppy",
+          "display": "Guppy"
+        }
+      ]
+    },
+    {
+      "code": "bird",
+      "display": "Pájaro",
+      "concept": [
+        {
+          "code": "parrot",
+          "display": "Loro"
+        },
+        {
+          "code": "canary",
+          "display": "Canario"
+        },
+        {
+          "code": "finch",
+          "display": "Pinzón"
+        }
+      ]
+    },
+    {
+      "code": "hamsters",
+      "display": "Hámsters",
+      "concept": [
+        {
+          "code": "syrian",
+          "display": "Hámster Sirio"
+        },
+        {
+          "code": "dwarf",
+          "display": "Hámster Enano"
+        }
+      ]
+    },
+    {
+      "code": "snake",
+      "display": "culebra",
+      "concept": [
+        {
+          "code": "cornsnake",
+          "display": "Culebra del Maíz"
+        },
+        {
+          "code": "ballpython",
+          "display": "Pitón Bola"
+        }
+      ]
+    },
+    {
+      "code": "pig",
+      "display": "Cerdo",
+      "concept": [
+        {
+          "code": "vietnamesepotbelly",
+          "display": "Cerdo Vietnamita Barrigón"
+        },
+        {
+          "code": "minipig",
+          "display": "Mini Pig"
+        }
+      ]
+    },
+    {
+      "code": "rabbit",
+      "display": "Conejo",
+      "concept": [
+        {
+          "code": "dutch",
+          "display": "Conejo Holandés"
+        },
+        {
+          "code": "lop",
+          "display": "Conejo Lop"
+        }
+      ]
+    },
+    {
+      "code": "monkey",
+      "display": "Mico",
+      "concept": [
+        {
+          "code": "capuchin",
+          "display": "Capuchino"
+        },
+        {
+          "code": "marmoset",
+          "display": "Tití"
+        }
+      ]
+    }
+  ],
+  "version": "1.0.1",
+  "experimental": true,
+  "purpose": "This FHIR resource type CodeSystem has been created to store animal species.",
+  "count": 35
+}

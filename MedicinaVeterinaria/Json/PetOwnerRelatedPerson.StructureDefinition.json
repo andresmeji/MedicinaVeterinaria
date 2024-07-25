@@ -1,0 +1,101 @@
+{
+  "resourceType": "StructureDefinition",
+  "url": "https://example.org/fhir/StructureDefinition/PetOwnerRelatedPerson",
+  "name": "PetOwnerRelatedPerson",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "RelatedPerson",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/RelatedPerson",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "RelatedPerson.id",
+        "path": "RelatedPerson.id",
+        "min": 1
+      },
+      {
+        "id": "RelatedPerson.identifier",
+        "path": "RelatedPerson.identifier",
+        "min": 1
+      },
+      {
+        "id": "RelatedPerson.identifier.use",
+        "path": "RelatedPerson.identifier.use",
+        "min": 1,
+        "fixedCode": "official"
+      },
+      {
+        "id": "RelatedPerson.identifier.type.coding.system",
+        "path": "RelatedPerson.identifier.type.coding.system",
+        "min": 1,
+        "fixedUri": "http://terminology.hl7.org/CodeSystem/v2-0203"
+      },
+      {
+        "id": "RelatedPerson.identifier.type.coding.code",
+        "path": "RelatedPerson.identifier.type.coding.code",
+        "min": 1,
+        "fixedCode": "PN"
+      },
+      {
+        "id": "RelatedPerson.identifier.type.coding.display",
+        "path": "RelatedPerson.identifier.type.coding.display",
+        "min": 1,
+        "fixedString": "Person number"
+      },
+      {
+        "id": "RelatedPerson.identifier.value",
+        "path": "RelatedPerson.identifier.value",
+        "min": 1
+      },
+      {
+        "id": "RelatedPerson.active",
+        "path": "RelatedPerson.active",
+        "min": 1
+      },
+      {
+        "id": "RelatedPerson.patient.reference",
+        "path": "RelatedPerson.patient.reference",
+        "fixedString": "Patient"
+      },
+      {
+        "id": "RelatedPerson.relationship",
+        "path": "RelatedPerson.relationship",
+        "min": 1,
+        "max": "1",
+        "fixedCodeableConcept": {
+          "text": "OW"
+        }
+      },
+      {
+        "id": "RelatedPerson.name",
+        "path": "RelatedPerson.name",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "RelatedPerson.name.family",
+        "path": "RelatedPerson.name.family",
+        "min": 1
+      },
+      {
+        "id": "RelatedPerson.name.given",
+        "path": "RelatedPerson.name.given",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "RelatedPerson.telecom",
+        "path": "RelatedPerson.telecom",
+        "min": 1
+      },
+      {
+        "id": "RelatedPerson.address",
+        "path": "RelatedPerson.address",
+        "min": 1
+      }
+    ]
+  }
+}
